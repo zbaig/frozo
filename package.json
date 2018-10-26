@@ -1,0 +1,20 @@
+{
+  "main": "server.js",
+  "scripts": {
+    "dev": "micro-dev --watch server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production micro"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "micro": "^9.3.3",
+    "micro-route": "^2.5.0",
+    "next": "^7.0.0",
+    "node-sass": "^4.9.4",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
